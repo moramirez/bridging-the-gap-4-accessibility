@@ -1,0 +1,84 @@
+.acsb-main-options .acsb-actions .acsb-actions-box .acsb-profiles {
+    position: relative;
+}
+ 
+* {
+    box-sizing: border-box !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+}
+ 
+user agent stylesheet
+div {
+    display: block;
+}
+ 
+.acsb-active {
+    visibility: visible;
+    overflow-y: scroll;
+}
+ 
+*{
+    position: relative;
+    height: calc(100% - 20px);
+    overflow: hidden;
+}
+ 
+.acsb-active {
+    opacity: 1;
+    height: 95%;
+    pointer-events: auto;
+    margin-top: 0 !important;
+    transform: translateY(-50%);
+}
+ 
+* {
+    display: none;
+    position: fixed;
+    background-color: #f2f3f8;
+    color: #1f2533;
+    width: 100%;
+    max-width: 550px;
+    height: 95%;
+    max-height: 95%;
+    top: 50%;
+    left: 30px;
+    bottom: auto;
+    overflow: hidden !important;
+    opacity: 0;
+    text-transform: none;
+    direction: ltr;
+    text-align: left;
+    border-radius: 10px;
+    user-select: none;
+    outline: none 0 !important;
+    letter-spacing: 0;
+    line-height: 1;
+    z-index: 999999999999999800000000000000000000000;
+    will-change: transform,opacity,height;
+    box-shadow: 0 10px 30px rgb(60 80 170 / 10%);
+    transition: opacity 0.15s ease, margin-top 0.15s ease, height 0.15s ease-out, transform 0.3s ease-out;
+    transform: translateY(-45%);
+}
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    overflow-x: hidden;
+   
+    background-color: #fff;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+::selection {
+    color: #fff !important;
+    background: #9fc1f4 !important;
+}
+ 
+
+
