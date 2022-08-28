@@ -8,4 +8,3 @@ ADHD
 Cognitive Disability 
 Seizures
 Vision Impaired
-Blind Users
